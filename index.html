@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Ricerca Lavori</title>
+    <link rel="stylesheet" href="compito.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Job Research Center</h1>
+
+        <div class="box-ricerca">
+            <label>Posizione:</label>
+            <input type="text" id="inputTitolo" placeholder="Es: Developer">
+            
+            <label>Località:</label>
+            <input type="text" id="inputLuogo" placeholder="Es: NY">
+            
+            <button onclick="eseguiRicerca()">CERCA</button>
+        </div>
+
+        <h3 id="risultatoContatore">Risultati trovati: 0</h3>
+        <ul id="listaLavori"></ul>
+    </div>
+
+    <script src="CompitoFineModulo.js"></script>
+</body>
+
+<header class="top-bar">
+    <div class="logo">Epicoder.Monteiro</div>
+</header>
+</html>
